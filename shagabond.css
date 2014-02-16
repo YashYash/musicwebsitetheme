@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+background-image:url(images/backgroundimage2.png);
+  background-position: top left;
+        background-attachment: fixed;
+		background-size:cover;
+		height:auto;
+		z-index:-1;	
+		width:100%;
+	
+}
+
+/*nav bar and hover effects*/
+.hover, #hover {
+  display: inline-block;
+  -webkit-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hover:hover {
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-animation-name: hover;
+  animation-name: hover;
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+#click{
+ display: inline-block;
+position: fixed;
+_position: static;
+z-index:100;
+top:300px;
+width:10%;
+}	
+
+.twitter-timeline{
+	position: fixed;
+	_position: static;
+	left:200px;
+	z-index:300;
+	top:200px;
+	width:40%;	
+}
+
+#wrap	{ /* Spans the width of the page */
+	height: auto; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99;/* Makes sure that your menu remains on top of other page elements */
+	float:right; 
+	background-color:none;
+	width:100%;
+	_position:static;
+	}
+	
+
+	.navbar	{
+	 display: inline-block;
+position: fixed;
+_position: static;
+   padding: 0;
+	margin: 0;
+	width:10%;
+	right:50px;
+	z-index:99; /* Ensures that the menu doesn’t affect other elements */ 
+		
+	}
+	
+		.navbar li 	{
+			
+			height: auto;
+			width: 100%;
+			_position:static; /* Each menu item is 150px wide */
+							  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font:Myriad Pro;
+			font-size: 24px;  
+			padding: 0;
+			margin: auto;
+			background-color:none;
+                        }
+						
+	.navbar a	{							
+		padding: 18px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		 /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+			width:100%;
+		}
+		
+	.navbar img{
+width:80%;
+	}
+	
+	.navbar li:hover, a:hover {background-color:none;
+	  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  transform: translateY(-15px);
+  -webkit-animation-name: hover;
+  animation-name: hover;
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+	}
+		.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        }
+						
+						 .navbar li ul li {background-color: black;
+						 					opacity:0.8;
+						 					  border-radius:10px;
+											  margin-bottom:35px;
+											  margin-top: -20px;
+											  font-size:14px;} 
+						
+						  .navbar li ul li:hover{
+								font-size:20px;  
+						  }
+						 
+						 .navbar li ul li a 	{
+		
+		}
+				
+.navbar li ul li a:hover	{background-color: #000000; opacity:0.4; border-radius:10px;}
+
+#john{
+	
+	width:25%;
+	height:auto;
+	position:relative;
+	left:150px;
+	top:0px;
+		
+}
+
+#shlohmo{
+	
+	width:25%;
+	height:auto;
+	position:relative;
+	left:330px;
+	top:0px;
+	
+}
+
+#wutang{
+	
+	width:25%;
+	height:auto;
+	position:relative;
+	left:500px;
+	top:0px;
+		
+}
+
+.rotate img {
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+.rotate img:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+#tiitle{
+	width:60%;
+	position:relative;
+	left:390px;
+	bottom:40px;
+}
+
+#producer{
+	position:relative;
+	left:590px;
+	bottom:60px;
+	width:60%;
+	height:aut0;
+	_position:static;	
+}
+
+#soundcloud{
+	width:50%;
+	margin:auto;
+	position:relative;
+	_position:static;
+	left:300px;
+	top:150px;
+	opacity:0.9;
+	border-radius::20px;	
+	padding:80px;
+}
+
+#insta{
+	width:50%;
+	margin:auto;
+	position:relative;
+	_position:static;
+	height:auto;
+	left:440px;
+	top:350px;	
+}
+
+#click0{
+ display: inline-block;
+position: fixed;
+_position: static;
+z-index:100;
+top:400px;
+width:10%;
+}
+
+#click1{
+display: inline-block;
+position: fixed;
+_position: static;
+z-index:100;
+top:500px;
+width:10%;
+}
+
+#intro{
+background-image:none;
+width:80%;
+height:800px;
+font-family:Helvetica;	
+}
