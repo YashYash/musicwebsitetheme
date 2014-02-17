@@ -55,10 +55,11 @@ width:10%;
 .twitter-timeline{
 	position: fixed;
 	_position: static;
-	left:200px;
-	z-index:300;
-	top:200px;
-	width:40%;	
+	left:150px;
+	z-index:200;
+	top:20px;
+	width:40%;
+	opacity:0.8;	
 }
 
 #wrap	{ /* Spans the width of the page */
@@ -163,9 +164,10 @@ width:80%;
 	height:auto;
 	position:relative;
 	left:150px;
-	top:0px;
-		
+	bottom:0px;		
 }
+
+
 
 #shlohmo{
 	
@@ -173,7 +175,7 @@ width:80%;
 	height:auto;
 	position:relative;
 	left:330px;
-	top:0px;
+	bottom:0px;
 	
 }
 
@@ -183,7 +185,7 @@ width:80%;
 	height:auto;
 	position:relative;
 	left:500px;
-	top:0px;
+	bottom:0px;
 		
 }
 
@@ -236,7 +238,7 @@ width:80%;
 	position:relative;
 	_position:static;
 	height:auto;
-	left:440px;
+	right:270px;
 	top:350px;	
 }
 
@@ -263,4 +265,102 @@ background-image:none;
 width:80%;
 height:800px;
 font-family:Helvetica;	
+}
+
+#mymusic{
+	width:5%;
+	height:20px;
+	position:relative;
+	bottom:60px;
+	left:610px;
+		
+}
+
+
+#aboutme{
+	width:5%;
+	height:20px;
+	position:relative;
+	left:150px;
+	bottom:70px;	
+	
+}
+
+#makebooking{
+	width:10%;
+	height:20px;
+	position:relative;
+	left:1020px;
+	bottom:70px;
+	
+}
+
+.img{
+	position:relative;
+	left:380px;	
+	top:50px;
+}
+
+#btn1{
+	position:fixed;
+	left:345px;
+	bottom:620px;
+	z-index:300;
+}
+
+#btn2{
+	position:fixed;
+	left:955px;
+	bottom:620px;
+	z-index:300;	
+}
+
+#instahide{
+	position: fixed;
+	_position: static;
+	left:750px;
+	z-index:200;
+	top:20px;
+	width:40%;
+		
+}
+
+.addthis_floating_style {
+position: fixed;
+_position: absolute;
+background:#AD3EB4;
+padding: 5px;
+text-align: center;
+border-radius: 8px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+z-index: 99;
+opacity:0.6;
+
+}
+
+#booking{
+	width:70%;
+	padding:20px;
+	position:relative;
+	left:350px;
+	top:90px;
+}
+
+div.particles {
+ 
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+textarea {
+  opacity: 0.0;
+  position: absolute;
+  z-index: 10;
+  top: 10em;
 }

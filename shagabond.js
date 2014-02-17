@@ -1,14 +1,62 @@
 // JavaScript Document
 $(document).ready(function () {
-	
+$("#makebooking").hide();	
+$("#aboutme").hide();
+$("#mymusic").hide();
 $("#into").hide();
+$("#instahide").hide();
 	$("#btn1").hide();
 	$("#click").click(function(){
-			$("#into").show();
+			$("#into").fadeIn("slow");
 			$("#btn1").show();
 	});
 	$("#btn1").click(function(){
 			$("#into").hide();
 			$("#btn1").hide();
 	});
+	$("#btn2").hide();
+	$("#click0").click(function(){
+			$("#instahide").fadeIn("slow");
+			$("#btn2").show();
+	});
+	$("#btn2").click(function(){
+			$("#instahide").hide();
+			$("#btn2").hide();
+	});
+	$("#hide").hover(function(){
+		$("#mymusic").hide();
+		$("#aboutme").hide();
+		$("#makebooking").hide();		
+	});
+	$("#tiitle").hover(function(){
+		$("#mymusic").hide();
+		$("#aboutme").hide();
+		$("#makebooking").hide();		
+	});
+	$("#producer").hover(function(){
+		$("#mymusic").hide();
+		$("#aboutme").hide();
+		$("#makebooking").hide();		
+	});
+	$("#soundcloud").hover(function(){
+		$("#mymusic").hide();
+		$("#aboutme").hide();
+		$("#makebooking").hide();		
+	});
+	$("#john").hover(function(){
+		$("#mymusic").hide();
+		$("#aboutme").fadeIn("slow");
+		$("#makebooking").hide();		
+	});
+	$("#shlohmo").hover(function(){
+		$("#mymusic").fadeIn("slow");
+		$("#aboutme").hide()
+		$("#makebooking").hide();		
+	});
+		$("#wutang").hover(function(){
+		$("#aboutme").hide();
+		$("#makebooking").fadeIn("slow");
+		$("#mymusic").hide();		
+	});
+	
 });
