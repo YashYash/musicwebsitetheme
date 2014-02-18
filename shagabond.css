@@ -182,7 +182,7 @@ width:80%;
 #wutang{
 	
 	width:25%;
-	height:auto;
+	height:100px;
 	position:relative;
 	left:500px;
 	bottom:0px;
@@ -272,7 +272,7 @@ font-family:Helvetica;
 	height:20px;
 	position:relative;
 	bottom:60px;
-	left:610px;
+	left:630px;
 		
 }
 
@@ -281,37 +281,39 @@ font-family:Helvetica;
 	width:5%;
 	height:20px;
 	position:relative;
-	left:150px;
+	left:165px;
 	bottom:70px;	
 	
 }
-
 #makebooking{
-	width:10%;
-	height:20px;
 	position:relative;
-	left:1020px;
+	left:1040px;
+	width:10%;
+	height:10px;	
 	bottom:70px;
+}
+#make{
+width:10%;
+position:relative;
+right:290px;
+top:250px;
 	
 }
 
-.img{
-	position:relative;
-	left:380px;	
-	top:50px;
-}
+
+
 
 #btn1{
 	position:fixed;
-	left:345px;
-	bottom:620px;
+	left:330px;
+	bottom:670px;
 	z-index:300;
 }
 
 #btn2{
 	position:fixed;
 	left:955px;
-	bottom:620px;
+	bottom:670px;
 	z-index:300;	
 }
 
@@ -343,8 +345,8 @@ opacity:0.6;
 	width:70%;
 	padding:20px;
 	position:relative;
-	left:350px;
-	top:90px;
+	left:310px;
+	top:190px;
 }
 
 div.particles {
@@ -363,4 +365,137 @@ textarea {
   position: absolute;
   z-index: 10;
   top: 10em;
+}
+
+p {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 2em;
+	line-height: 2em;
+	position:relative;
+	left:560px;
+	bottom:70px;
+}
+i {
+	display: inline-block;
+	font-style: normal;
+	padding: 0 0.25em;
+	-webkit-transform: scale(0) translate3d(0, -2000px, 0);
+	   -moz-transform: scale(0) translate3d(0, -2000px, 0);
+		-ms-transform: scale(0) translate3d(0, -2000px, 0);
+		 -o-transform: scale(0) translate3d(0, -2000px, 0);
+			transform: scale(0) translate3d(0, -2000px, 0);
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+}
+i.fly-in-out {
+	-webkit-animation: fly-in-out 3s infinite ease-in-out;
+	   -moz-animation: fly-in-out 3s infinite ease-in-out;
+		 -o-animation: fly-in-out 3s infinite ease-in-out;
+			animation: fly-in-out 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes fly-in-out {
+	0% {
+		-webkit-transform: scale(0) translate3d(0, -1000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+	15%, 85% {
+		color: rgba(255, 255, 255, 0.8);
+		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+		-webkit-transform: scale(1) translate3d(0, 0, 0);
+		background: transparent;
+		box-shadow: none;
+	}
+	100% {
+		color: transparent;	
+		-webkit-transform: scale(0) translate3d(0, 1000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+}
+@-moz-keyframes fly-in-out {
+	0% {
+		-moz-transform: scale(0) translate3d(0, -2000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+	15%, 85% {
+		color: rgba(255, 255, 255, 0.8);
+		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+		-moz-transform: scale(1) translate3d(0, 0, 0);
+		background: transparent;
+		box-shadow: none;
+	}
+	100% {
+		color: transparent;	
+		-moz-transform: scale(0) translate3d(0, 2000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+}
+@-o-keyframes fly-in-out {
+	0% {
+		-o-transform: scale(0) translate3d(0, -2000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+	15%, 85% {
+		color: rgba(255, 255, 255, 0.8);
+		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+		-o-transform: scale(1) translate3d(0, 0, 0);
+		background: transparent;
+		box-shadow: none;
+	}
+	100% {
+		color: transparent;	
+		-o-transform: scale(0) translate3d(0, 2000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+}
+@keyframes fly-in-out {
+	0% {
+		transform: scale(0) translate3d(0, -2000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+	15%, 85% {
+		color: rgba(255, 255, 255, 0.8);
+		text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+		transform: scale(1) translate3d(0, 0, 0);
+		background: transparent;
+		box-shadow: none;
+	}
+	100% {
+		color: transparent;	
+		transform: scale(0) translate3d(0, 2000px, 0);
+		background: rgba(255, 255, 255, 0.3);
+		box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+	}
+}
+
+#aboutmepop{
+	width:100%;
+	position:fixed;
+	z-index:400;
+	
+	left:65px;
+}
+
+#btn3{
+	position:fixed;
+	left:630px;
+	z-index:510;
+	top:15px;	
 }
