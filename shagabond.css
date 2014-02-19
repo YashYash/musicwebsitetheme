@@ -304,14 +304,14 @@ top:250px;
 #btn1{
 	position:fixed;
 	left:330px;
-	bottom:620px;
+	bottom:550px;
 	z-index:300;
 }
 
 #btn2{
 	position:fixed;
 	left:955px;
-	bottom:620px;
+	bottom:550px;
 	z-index:300;	
 }
 
