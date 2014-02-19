@@ -174,7 +174,7 @@ width:80%;
 	width:25%;
 	height:auto;
 	position:relative;
-	left:330px;
+	left:310px;
 	bottom:0px;
 	
 }
@@ -184,7 +184,7 @@ width:80%;
 	width:25%;
 	height:100px;
 	position:relative;
-	left:500px;
+	left:480px;
 	bottom:0px;
 		
 }
@@ -207,13 +207,13 @@ width:80%;
 #tiitle{
 	width:60%;
 	position:relative;
-	left:390px;
+	left:380px;
 	bottom:40px;
 }
 
 #producer{
 	position:relative;
-	left:590px;
+	left:540px;
 	bottom:60px;
 	width:60%;
 	height:aut0;
@@ -272,7 +272,7 @@ font-family:Helvetica;
 	height:20px;
 	position:relative;
 	bottom:60px;
-	left:630px;
+	left:600px;
 		
 }
 
@@ -287,7 +287,7 @@ font-family:Helvetica;
 }
 #makebooking{
 	position:relative;
-	left:1040px;
+	left:990px;
 	width:10%;
 	height:10px;	
 	bottom:70px;
@@ -306,14 +306,14 @@ top:250px;
 #btn1{
 	position:fixed;
 	left:330px;
-	bottom:670px;
+	bottom:620px;
 	z-index:300;
 }
 
 #btn2{
 	position:fixed;
 	left:955px;
-	bottom:670px;
+	bottom:620px;
 	z-index:300;	
 }
 
