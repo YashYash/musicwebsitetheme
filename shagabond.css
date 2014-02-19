@@ -207,17 +207,15 @@ width:80%;
 #tiitle{
 	width:60%;
 	position:relative;
-	left:380px;
+	left:330px;
 	bottom:40px;
 }
 
-#producer{
+#bouncy{
 	position:relative;
-	left:540px;
-	bottom:60px;
-	width:60%;
-	height:aut0;
-	_position:static;	
+	right:45px;
+	width:50%;
+	bottom:10px;
 }
 
 #soundcloud{
@@ -272,7 +270,7 @@ font-family:Helvetica;
 	height:20px;
 	position:relative;
 	bottom:60px;
-	left:600px;
+	left:580px;
 		
 }
 
@@ -287,7 +285,7 @@ font-family:Helvetica;
 }
 #makebooking{
 	position:relative;
-	left:990px;
+	left:970px;
 	width:10%;
 	height:10px;	
 	bottom:70px;
@@ -295,7 +293,7 @@ font-family:Helvetica;
 #make{
 width:10%;
 position:relative;
-right:290px;
+right:260px;
 top:250px;
 	
 }
@@ -345,7 +343,7 @@ opacity:0.6;
 	width:70%;
 	padding:20px;
 	position:relative;
-	left:310px;
+	left:300px;
 	top:190px;
 }
 
