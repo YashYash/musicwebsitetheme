@@ -55,7 +55,7 @@ width:10%;
 .twitter-timeline{
 	position: fixed;
 	_position: static;
-	left:150px;
+	left:130px;
 	z-index:200;
 	top:20px;
 	width:40%;
@@ -303,14 +303,14 @@ top:250px;
 
 #btn1{
 	position:fixed;
-	left:330px;
+	left:290px;
 	bottom:550px;
 	z-index:300;
 }
 
 #btn2{
 	position:fixed;
-	left:955px;
+	left:865px;
 	bottom:550px;
 	z-index:300;	
 }
@@ -318,7 +318,7 @@ top:250px;
 #instahide{
 	position: fixed;
 	_position: static;
-	left:750px;
+	left:655px;
 	z-index:200;
 	top:20px;
 	width:40%;
@@ -505,3 +505,4 @@ i.fly-in-out {
 	left:350px;
 	top:80px;	
 }
+
